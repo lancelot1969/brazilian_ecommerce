@@ -1,0 +1,19 @@
+#brazilian-e-commerce-dashboard{
+    margin-top: -20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	background-color: #004D54;
+	margin-bottom: 20px;
+	color: white;
+	font-weight: bold;
+	text-align: left;
+}
+
+[data-testid="stMetricLabel"] {
+    color:brown
+}
+
+[data-testid="stWidgetLabel"]{
+	color:brown
+
+}
