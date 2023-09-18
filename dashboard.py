@@ -20,11 +20,11 @@ with open('style.css')as f:
 @st.cache_data()
 def load_data(dir):
     #load all dataset
-    category = pd.read_csv(dir+'\category.csv')
-    customers = pd.read_csv(dir+'\customers.csv')
-    sellers = pd.read_csv(dir+'\sellers.csv')
-    orders = pd.read_csv(dir+'\orders.csv')
-    order_items = pd.read_csv(dir+'\order_items.csv')
+    category = pd.read_csv(dir+'/category.csv')
+    customers = pd.read_csv(dir+'/customers.csv')
+    sellers = pd.read_csv(dir+'/sellers.csv')
+    orders = pd.read_csv(dir+'/orders.csv')
+    order_items = pd.read_csv(dir+'/order_items.csv')
 
     #merge dataset
     df = pd.merge(orders, order_items, how='inner', on='order_id')
